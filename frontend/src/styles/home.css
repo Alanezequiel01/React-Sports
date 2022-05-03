@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&display=swap');
+
+/*CAROUSEL*/
+body {
+  background-color: #fff;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.carouselContainer {
+  width: 100%;
+  height: 70vh;
+}
+
+.imgCarousel {
+  object-fit: cover !important;
+}
+.coreanos {
+  object-position: 10% 25%;
+}
+
+.linkCarouselSup {
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+/*Fin de carousel*/
+
+/* Inicio de carousel de productos  */
+.tittlesCarouselProducts {
+  font-size: 2.3rem;
+  font-family: "Akshar", sans-serif;
+  margin-top: 3rem;
+  color: #262626;
+}
+.tittleCarouselMundial{
+  color: black !important;
+  font-size: 2.3rem;
+  font-family: "Akshar", sans-serif;
+  margin-top: 4rem;
+}
+.mundialFont{
+  font-family: "Akshar", sans-serif !important;
+  font-style: italic;
+  color: #8e1634 !important;
+}
+.mundialFontQatar{
+  font-family: 'Laila', sans-serif !important;
+  font-style: italic;
+  color: #8e1634 !important;
+}
+.color2022{
+  color: #357aac;
+  font-family: 'Laila', sans-serif !important;
+  font-style: italic;
+}
+.mySwiperProducts {
+  padding: 0 0.5rem 1rem !important;
+}
+.containerCarouselProducts {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.carouselProducts {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 0.5rem;
+}
+
+.carouselProductsSlide {
+  height: 22rem;
+  border: solid 1px #ebebeb;
+  box-shadow: 3px 3px 1px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  transition: 300ms;
+}
+.carouselProductsSlide:hover{
+  border: solid 1px gray;
+}
+
+.imageProductsCarousel {
+  width: 11rem !important;
+  height: 15rem !important;
+  object-fit: contain !important;
+}
+
+.productNameCarousel {
+  font-size: 1.7rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #262626;
+}
+
+.productDescriptionCarousel {
+  font-size: 0.9rem;
+  font-family: "Kanit", sans-serif;
+}
+
+.productPriceCarousel {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #0a7bc1;
+}
+
+.linksCarousel {
+  text-decoration: none !important;
+  color: inherit;
+}
+.imgBrandCarousel{
+  width: 100%;
+  height: 5%;
+  padding-left: 1rem;
+  position:relative;
+  top:15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logoBrand{
+  width: 3rem !important;
+  height: 3rem !important;
+}
+.logoBrands{
+  width: 3rem !important;
+  height: 2rem !important;
+}
+
+@media (max-width: 1024px) {
+  .carouselContainer {
+    height: 45vh;
+  }
+}
